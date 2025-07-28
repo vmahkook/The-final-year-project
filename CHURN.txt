@@ -1,0 +1,27 @@
+RowNumber: A sequential identifier for each row in the dataset. It helps in keeping track of the individual records.
+
+CustomerId: A unique identifier assigned to each customer. This allows the bank to distinguish between different customers in the dataset.
+
+Surname: The last name of the customer. This can be used for identifying the customer but is not typically used for analysis due to privacy concerns.
+
+CreditScore: A numerical value representing the creditworthiness of the customer, often based on credit history. Higher scores indicate better creditworthiness, influencing the bank's decisions regarding loans and credit products.
+
+Geography: The geographical location of the customer, often indicating the country or region. This can provide insights into market demographics and regional preferences.
+
+Gender: The gender of the customer (e.g., Male or Female). This information may be used for demographic analysis and understanding customer behaviors.
+
+Age: The age of the customer in years. Age can affect banking needs, preferences, and financial products.
+
+Tenure: The number of years the customer has been with the bank. This is an important metric as longer tenure can indicate customer loyalty.
+
+Balance: The current balance of the customer’s bank account. This value can help assess the financial status of the customer.
+
+NumOfProducts: The total number of financial products (e.g., savings accounts, loans, credit cards) the customer has with the bank. This can indicate customer engagement and usage of bank services.
+
+HasCrCard: A binary indicator (0 or 1) showing whether the customer has a credit card. This can help understand credit utilization and risk.
+
+IsActiveMember: A binary indicator (0 or 1) showing whether the customer is an active member of the bank. Active members may have a higher likelihood of remaining with the bank.
+
+EstimatedSalary: The estimated annual salary of the customer. This can provide insights into the customer’s financial capacity and potential product needs.
+
+Exited: A binary indicator (0 or 1) showing whether the customer has exited (churned) from the bank. This is the target variable for churn prediction analysis, indicating whether a customer has closed their account.

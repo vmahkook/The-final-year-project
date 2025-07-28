@@ -1,0 +1,696 @@
+{
+    "intents": [
+      {
+        "tag": "bank_services",
+        "patterns": [
+          "What services does the bank offer?",
+          "Can you explain the types of accounts available?",
+          "How can I apply for a loan?",
+          "What investment options does the bank provide?",
+          "Do you offer online banking services?"
+        ],
+        "responses": [
+          "Our bank offers a range of services including savings accounts, checking accounts, loans, investments, and online banking. We have various account types tailored to different needs, and our loan application process is designed to be straightforward. Our investment options include mutual funds, bonds, and retirement plans."
+        ]
+      },
+      {
+        "tag": "greeting_2",
+        "patterns": [
+          "Hi, how are you?",
+          "Hello, how's your day?",
+          "Good day!",
+          "Nice to meet you.",
+          "Greetings!"
+        ],
+        "responses": [
+          "Hello! I'm doing well, thank you. How can I help you with your banking needs?"
+        ]
+      },
+      {
+        "tag": "greeting_3",
+        "patterns": [
+          "Hey!",
+          "Good to see you.",
+          "Morning!",
+          "Afternoon!",
+          "Hola!"
+        ],
+        "responses": [
+          "Hey there! It's great to see you. How can I assist you with your financial goals today?"
+        ]
+      },
+      {
+        "tag": "greeting_4",
+        "patterns": [
+          "Hi, what's up?",
+          "Hello, how's everything?",
+          "Good [morning/afternoon], how's your day going?",
+          "Nice weather today, isn't it?",
+          "Hey, how have you been?"
+        ],
+        "responses": [
+          "Hi! Everything's going well, thank you. How can I help you manage your finances today?"
+        ]
+      },
+      {
+        "tag": "greeting_5",
+        "patterns": [
+          "Good to see you again!",
+          "Hi, it's good to be back!",
+          "Hello again!",
+          "Nice to meet you in person.",
+          "Greetings!"
+        ],
+        "responses": [
+          "Welcome back! It's always a pleasure to assist you. How can I support your financial plans today?"
+        ]
+      },
+      {
+        "tag": "loan_application",
+        "patterns": [
+          "What are the eligibility criteria for a loan?",
+          "How long does the loan approval process take?",
+          "What documents do I need to submit for a loan application?",
+          "Can I get a loan without collateral?",
+          "What are the interest rates for different types of loans?"
+        ],
+        "responses": [
+          "Loan eligibility depends on factors such as income, credit history, and employment status. The approval process typically takes a few days, provided all required documents are submitted. Documents usually include proof of identity, income statements, and property documents for secured loans. We offer both secured and unsecured loan options with competitive interest rates."
+        ]
+      },
+      {
+        "tag": "investment_advice",
+        "patterns": [
+          "How can I start investing with the bank?",
+          "What investment strategies do you recommend?",
+          "Can you explain the risks associated with different investments?",
+          "What are the tax implications of investments?",
+          "Is there a minimum investment amount?"
+        ],
+        "responses": [
+          "To start investing, we recommend discussing your financial goals and risk tolerance with our investment advisors. We offer diversified investment portfolios and can tailor strategies based on your preferences. All investments carry some degree of risk, and our advisors will explain these in detail. Tax implications vary by investment type; we provide guidance to optimize tax efficiency. Minimum investment amounts depend on the type of investment."
+        ]
+      },
+      {
+        "tag": "online_banking",
+        "patterns": [
+          "How secure is online banking?",
+          "Can you explain the features of our online banking platform?",
+          "What should I do if I forget my online banking password?",
+          "How can I set up automatic bill payments?",
+          "Are there any fees associated with online banking?"
+        ],
+        "responses": [
+          "Online banking security is a top priority; we use encryption and multi-factor authentication to safeguard your information. Our platform offers features such as account monitoring, fund transfers, bill payments, and e-statements. If you forget your password, you can reset it securely online or contact our customer service for assistance. Setting up automatic bill payments is simple through our online portal, and we offer convenient fee structures for online transactions."
+        ]
+      },
+      {
+        "tag": "financial_planning",
+        "patterns": [
+          "How can the bank help with financial planning?",
+          "What is the importance of retirement planning?",
+          "Can you explain the benefits of a diversified portfolio?",
+          "How should I prepare for major financial milestones?",
+          "What are the options for saving for my child's education?"
+        ],
+        "responses": [
+          "Our bank provides personalized financial planning services to help you achieve your goals. Retirement planning ensures financial security during your post-career years; we offer retirement accounts and investment advice tailored to your timeline and risk tolerance. Diversifying your portfolio spreads risk across different asset classes, potentially increasing returns. We can help you prepare for milestones such as buying a home or funding education through savings plans and investment strategies."
+        ]
+      },
+      {
+        "tag": "customer_support",
+        "patterns": [
+          "How can I contact customer support?",
+          "What are the banking hours?",
+          "Can I schedule an appointment with a bank advisor?",
+          "What should I do if I encounter fraudulent activity?",
+          "Is there a mobile app for banking services?"
+        ],
+        "responses": [
+          "You can reach our customer support team via phone, email, or visit any of our branches during business hours. Appointments with bank advisors can be scheduled online or by contacting us directly. If you suspect fraudulent activity, please notify us immediately; we have protocols in place to address security concerns. Our mobile banking app offers convenient access to account management, transactions, and alerts."
+        ]
+      },
+      {
+        "tag": "credit_cards",
+        "patterns": [
+          "What types of credit cards does the bank offer?",
+          "How can I apply for a credit card?",
+          "What are the benefits of using a credit card?",
+          "How can I manage my credit card payments?",
+          "Are there any fees associated with credit cards?"
+        ],
+        "responses": [
+          "We offer various credit card options with features such as cashback rewards, travel benefits, and low-interest rates. You can apply for a credit card online or at any branch. Using a credit card offers convenience, fraud protection, and helps build credit history. Managing payments is easy through our online banking portal or automatic payment options. Credit card fees vary; we provide transparent fee schedules and options to minimize costs."
+        ]
+      },
+      {
+        "tag": "mortgages",
+        "patterns": [
+          "What types of mortgages does the bank offer?",
+          "How can I qualify for a mortgage?",
+          "What are the current mortgage rates?",
+          "Can you explain the mortgage application process?",
+          "What are the options for refinancing a mortgage?"
+        ],
+        "responses": [
+          "We offer fixed-rate and adjustable-rate mortgages tailored to your financial situation. Mortgage qualification depends on factors such as income, credit history, and property appraisal. Current mortgage rates are competitive and can be discussed with our mortgage specialists. The application process includes pre-approval, property evaluation, and closing procedures. Refinancing options are available to adjust loan terms or rates based on market conditions."
+        ]
+      },
+      {
+        "tag": "retirement_accounts",
+        "patterns": [
+          "What types of retirement accounts does the bank offer?",
+          "How can I start saving for retirement?",
+          "Can you explain the tax advantages of retirement accounts?",
+          "What are the withdrawal rules for retirement funds?",
+          "Is there a penalty for early retirement account withdrawals?"
+        ],
+        "responses": [
+          "We offer IRA (Individual Retirement Account) options including Traditional IRAs and Roth IRAs, each with unique tax benefits. Starting early and contributing regularly to retirement accounts helps build savings for the future. Contributions to Traditional IRAs may be tax-deductible, while Roth IRAs offer tax-free growth. Withdrawal rules and penalties vary by account type and age; we provide guidance to maximize retirement savings while minimizing tax implications."
+        ]
+      },
+      {
+        "tag": "business_banking",
+        "patterns": [
+          "What services does the bank offer for businesses?",
+          "How can I open a business account?",
+          "What financing options are available for small businesses?",
+          "Can you explain business credit lines?",
+          "What are the requirements for business loans?"
+        ],
+        "responses": [
+          "Our bank provides comprehensive business banking services including business accounts, loans, lines of credit, and merchant services. Opening a business account is straightforward; we cater to various business sizes and industries. Financing options include small business loans, SBA (Small Business Administration) loans, and lines of credit tailored to your business needs. Business credit lines offer flexibility for short-term financing, and loan requirements depend on factors such as business plan, credit history, and collateral."
+        ]
+      },
+      {
+        "tag": "bank_security",
+        "patterns": [
+          "How does the bank ensure security for customer accounts?",
+          "What should I do if my debit card is lost or stolen?",
+          "Can you explain the security features of online banking?",
+          "How does the bank protect against identity theft?",
+          "Is my personal information safe with the bank?"
+        ],
+        "responses": [
+          "Ensuring security for customer accounts is a priority. We employ encryption, firewalls, and multi-factor authentication for online and mobile banking. If your debit card is lost or stolen, contact us immediately to freeze the card and prevent unauthorized transactions. Our online banking platform includes features like secure login, transaction alerts, and account monitoring to safeguard against identity theft. Your personal information is protected under strict confidentiality policies."
+        ]
+      },
+      {
+        "tag": "savings_accounts",
+        "patterns": [
+          "What types of savings accounts does the bank offer?",
+          "Can you explain the interest rates for savings accounts?",
+          "How can I open a savings account?",
+          "What are the benefits of a high-yield savings account?",
+          "Are there any fees associated with savings accounts?"
+        ],
+        "responses": [
+          "We offer various savings account options including basic savings, high-yield savings, and money market accounts. Interest rates vary based on account type and balance. Opening a savings account is simple; you can apply online, by phone, or in person at any branch. High-yield savings accounts offer competitive interest rates to help your savings grow faster. We provide fee schedules that outline any associated fees, often waived with minimum balance requirements."
+        ]
+      },
+      {
+        "tag": "credit_score",
+        "patterns": [
+          "How can I check my credit score?",
+          "What factors affect my credit score?",
+          "Can you explain ways to improve my credit score?",
+          "What is a good credit score?",
+          "How does my credit score affect loan applications?"
+        ],
+        "responses": [
+          "You can check your credit score through credit reporting agencies or our online banking platform. Factors influencing your credit score include payment history, credit utilization, length of credit history, and types of credit accounts. Improving your credit score involves timely payments, reducing debt, and monitoring your credit report for inaccuracies. A good credit score typically ranges above 700, enabling better loan terms and approval rates."
+        ]
+      },
+      {
+        "tag": "foreign_exchange",
+        "patterns": [
+          "Does the bank offer foreign exchange services?",
+          "How can I exchange currency?",
+          "What are the current exchange rates?",
+          "Can you explain currency conversion fees?",
+          "Is there a limit on foreign currency transactions?"
+        ],
+        "responses": [
+          "Yes, we provide foreign exchange services for currency exchange and international transfers. You can exchange currency at any branch or through our online banking platform. Exchange rates fluctuate and are updated regularly; you can check current rates online or with our customer service. Currency conversion fees may apply based on transaction size and currency pair. Limits on foreign currency transactions depend on regulatory guidelines and account type."
+        ]
+      },
+      {
+        "tag": "estate_planning",
+        "patterns": [
+          "How can the bank assist with estate planning?",
+          "What is a trust account?",
+          "Can you explain the process of naming beneficiaries?",
+          "What are the benefits of a will?",
+          "How can I protect my assets for future generations?"
+        ],
+        "responses": [
+          "Our bank offers estate planning services to help you manage and distribute assets according to your wishes. A trust account allows you to designate beneficiaries and manage assets during your lifetime and after. Naming beneficiaries on accounts ensures smooth transfer of assets without probate. A will outlines your wishes for asset distribution and guardianship, providing clarity and legal protection. We can help you create strategies to protect and preserve your wealth for future generations."
+        ]
+      },
+      {
+        "tag": "retirement_planning",
+        "patterns": [
+          "How can I plan for retirement?",
+          "What retirement accounts does the bank offer?",
+          "Can you explain IRA contribution limits?",
+          "Is there a retirement calculator available?",
+          "What are the options for withdrawing from retirement accounts?"
+        ],
+        "responses": [
+          "Planning for retirement involves setting financial goals and creating a strategy to achieve them. Our bank offers IRA options including Traditional IRAs and Roth IRAs, each with contribution limits and tax advantages. IRA contribution limits are set annually and may vary based on income and age. We provide retirement calculators to estimate savings needed and withdrawal options to manage distributions effectively."
+        ]
+      },
+      {
+        "tag": "student_loans",
+        "patterns": [
+          "Does the bank offer student loans?",
+          "How can I apply for a student loan?",
+          "What are the interest rates for student loans?",
+          "Can you explain student loan repayment options?",
+          "Are there benefits to refinancing student loans?"
+        ],
+        "responses": [
+          "Yes, we offer student loan options to finance higher education expenses. You can apply for a student loan online or at any branch. Interest rates for student loans may vary based on the loan type and borrower's creditworthiness. Repayment options include deferred payments while in school and various plans post-graduation. Refinancing student loans can lower interest rates and simplify repayment terms, depending on market conditions and credit history."
+        ]
+      },
+      {
+        "tag": "small_business_loans",
+        "patterns": [
+          "What types of loans are available for small businesses?",
+          "How can I qualify for a small business loan?",
+          "Can you explain SBA loan programs?",
+          "What collateral is required for business loans?",
+          "What are the repayment terms for small business loans?"
+        ],
+        "responses": [
+          "We offer small business loans tailored to meet your financing needs, including term loans, lines of credit, and SBA (Small Business Administration) loans. Qualification criteria typically include business plan, credit history, and collateral. SBA loan programs provide government-backed funding options with favorable terms for small businesses. Collateral requirements vary based on loan amount and risk assessment. Repayment terms are structured to match business cash flow and loan purpose."
+        ]
+      },
+      {
+        "tag": "wealth_management",
+        "patterns": [
+          "How can the bank assist with wealth management?",
+          "What is portfolio diversification?",
+          "Can you explain investment advisory services?",
+          "What are the benefits of trust and estate planning?",
+          "How does the bank manage risk for high-net-worth clients?"
+        ],
+        "responses": [
+          "Our bank offers personalized wealth management services to help you grow and protect your assets. Portfolio diversification involves spreading investments across different asset classes to manage risk. Investment advisory services provide tailored strategies based on your financial goals and risk tolerance. Trust and estate planning services ensure efficient asset transfer and tax optimization. For high-net-worth clients, we implement risk management strategies to preserve wealth and achieve long-term financial objectives."
+        ]
+      },
+      {
+        "tag": "community_outreach",
+        "patterns": [
+          "What community outreach programs does the bank support?",
+          "How can I get involved in volunteer opportunities?",
+          "Does the bank offer financial literacy programs?",
+          "Can you explain the bank's commitment to corporate social responsibility?",
+          "Are there scholarships or grants available through the bank?"
+        ],
+        "responses": [
+          "Our bank actively supports community outreach programs focusing on education, healthcare, and local development initiatives. You can participate in volunteer opportunities through our partnership programs or employee volunteer initiatives. We offer financial literacy workshops and resources to empower individuals with financial knowledge. Corporate social responsibility is integral to our mission, promoting sustainable practices and community engagement. Scholarships and grants are available to support education and community initiatives."
+        ]
+      },
+      {
+        "tag": "checking_accounts",
+        "patterns": [
+          "What types of checking accounts does the bank offer?",
+          "Can you explain the features of a basic checking account?",
+          "Are there any fees associated with checking accounts?",
+          "How can I open a checking account?",
+          "What overdraft protection options are available?"
+        ],
+        "responses": [
+          "Our bank offers various checking account options tailored to different needs, including basic checking, interest-bearing accounts, and premium accounts with additional benefits. Basic checking accounts typically have minimal fees and allow convenient access to funds through debit cards and online banking. Opening a checking account is straightforward; you can apply online, by phone, or at any branch. Overdraft protection options include linking accounts or applying for overdraft lines of credit."
+        ]
+      },
+      {
+        "tag": "mobile_banking",
+        "patterns": [
+          "Does the bank offer mobile banking services?",
+          "What features are available on the mobile banking app?",
+          "How secure is mobile banking?",
+          "Can I deposit checks using the mobile app?",
+          "Is there a fee for using mobile banking?"
+        ],
+        "responses": [
+          "Yes, our bank provides mobile banking services for convenient account management on the go. The mobile app offers features such as balance inquiries, fund transfers, bill payments, and mobile check deposit. We prioritize security with encryption, biometric authentication, and real-time monitoring to protect your information. Mobile banking is free to use; standard data rates from your mobile carrier may apply."
+        ]
+      },
+      {
+        "tag": "senior_banking",
+        "patterns": [
+          "Are there specialized banking services for seniors?",
+          "What benefits are available for senior customers?",
+          "Can you explain senior discounts or fee waivers?",
+          "How can the bank assist with retirement planning for seniors?",
+          "Is there assistance available for estate planning?"
+        ],
+        "responses": [
+          "Our bank offers specialized services and benefits for senior customers, including preferential rates on certain accounts and fee waivers for basic banking services. Senior discounts may apply to safe deposit boxes or financial advisory services. We provide personalized retirement planning assistance to help seniors achieve financial security. Our estate planning services ensure assets are managed and distributed according to their wishes, with options for trust accounts and beneficiary designations."
+        ]
+      },
+      {
+        "tag": "business_credit_cards",
+        "patterns": [
+          "Does the bank offer business credit cards?",
+          "What are the benefits of a business credit card?",
+          "How can I apply for a business credit card?",
+          "Can you explain business credit card rewards programs?",
+          "Are there annual fees for business credit cards?"
+        ],
+        "responses": [
+          "Yes, we provide business credit card options designed to meet the needs of businesses, including rewards programs tailored to business spending. Benefits of a business credit card include expense tracking, cash flow management, and rewards points for business purchases. You can apply for a business credit card online or at any branch. Rewards programs offer points or cash back on eligible purchases. Annual fees may apply based on the card type and benefits."
+        ]
+      },
+      {
+        "tag": "digital_payments",
+        "patterns": [
+          "What digital payment options does the bank offer?",
+          "Can you explain contactless payment technology?",
+          "How secure are digital payments?",
+          "Is there a limit on digital payment transactions?",
+          "Can I use digital wallets with my bank account?"
+        ],
+        "responses": [
+          "Our bank offers digital payment options including contactless payments, mobile wallets, and online payment services. Contactless payment technology allows for secure transactions using NFC (Near Field Communication) technology. We prioritize security with tokenization and encryption to protect digital payment information. Transaction limits may apply for security purposes, depending on the payment method and account type. You can link your bank account to digital wallets for convenient payments."
+        ]
+      },
+      {
+        "tag": "community_involvement",
+        "patterns": [
+          "How is the bank involved in the local community?",
+          "Can you explain the bank's corporate social responsibility initiatives?",
+          "Are there opportunities for customer involvement in community projects?",
+          "Does the bank support local businesses or nonprofits?",
+          "Are there benefits to banking with a community-focused institution?"
+        ],
+        "responses": [
+          "Our bank is actively involved in the local community through partnerships with nonprofits, sponsorship of community events, and employee volunteer programs. Corporate social responsibility initiatives focus on education, environmental sustainability, and economic development. Customers can participate in community projects through volunteer opportunities or fundraising campaigns. We support local businesses through banking services tailored to their needs, fostering economic growth and community well-being."
+        ]
+      },
+      {
+        "tag": "financial_education",
+        "patterns": [
+          "Does the bank offer financial education programs?",
+          "Can you explain workshops or seminars on financial literacy?",
+          "How can I improve my financial knowledge?",
+          "Are there resources available for budgeting or saving tips?",
+          "Is there assistance for first-time homebuyers?"
+        ],
+        "responses": [
+          "Yes, our bank provides financial education programs including workshops, seminars, and online resources on topics such as budgeting, saving, investing, and home buying. Financial literacy workshops cover essential skills for managing money effectively. You can improve your financial knowledge through personalized advice from our advisors or self-paced learning modules. We offer resources and tools to help you budget, save for goals, and prepare for major financial milestones like buying a home."
+        ]
+      },
+      {
+        "tag": "charitable_donations",
+        "patterns": [
+          "Does the bank accept charitable donations?",
+          "Can you explain the process of donating to local charities?",
+          "Are there benefits to charitable giving through the bank?",
+          "Does the bank match employee charitable donations?",
+          "Is there information available on tax deductions for donations?"
+        ],
+        "responses": [
+          "Our bank facilitates charitable donations through partnerships with local charities and community foundations. You can donate securely through our online banking platform or at any branch location. Benefits of charitable giving may include tax deductions and support for causes that align with your values. We encourage employee involvement in charitable activities and may match employee donations to eligible nonprofits. Tax information for charitable contributions is available upon request."
+        ]
+      },
+      {
+        "tag": "loan_refinancing",
+        "patterns": [
+          "Can you explain loan refinancing options?",
+          "What types of loans can be refinanced?",
+          "How can I lower my monthly payments through refinancing?",
+          "Is there a fee for loan refinancing?",
+          "Can I refinance my mortgage to take advantage of lower interest rates?"
+        ],
+        "responses": [
+          "Loan refinancing allows you to replace an existing loan with a new loan that has better terms, such as lower interest rates or extended repayment terms. Types of loans that can be refinanced include mortgages, auto loans, and student loans. Refinancing can potentially lower your monthly payments by reducing interest rates or extending the repayment period. Fees for loan refinancing may apply, depending on the loan type and lender policies. Refinancing a mortgage can be a strategic move to capitalize on favorable market conditions and reduce overall borrowing costs."
+        ]
+      },
+      {
+        "tag": "wealth_transfer",
+        "patterns": [
+          "How can I plan for wealth transfer to future generations?",
+          "Can you explain the benefits of setting up a trust?",
+          "What are the tax implications of wealth transfer?",
+          "Is there assistance available for creating a will?",
+          "How can I protect family assets for the long term?"
+        ],
+        "responses": [
+          "Planning for wealth transfer involves strategies to manage and distribute assets to heirs or beneficiaries. Setting up a trust can provide control over how assets are managed and distributed, potentially reducing estate taxes and avoiding probate. Tax implications of wealth transfer vary based on estate size, state laws, and planning strategies. We offer guidance and legal resources to assist with creating wills and trusts, ensuring your wishes are carried out effectively. Protecting family assets involves comprehensive planning to preserve wealth and support future generations."
+        ]
+      },
+      {
+        "tag": "mortgage_loans",
+        "patterns": [
+          "Does the bank offer mortgage loans?",
+          "What types of mortgage loans are available?",
+          "Can you explain fixed-rate vs. adjustable-rate mortgages?",
+          "How can I qualify for a mortgage loan?",
+          "What is the mortgage application process?"
+        ],
+        "responses": [
+          "Yes, our bank provides mortgage loans for purchasing or refinancing homes. We offer various types of mortgages, including fixed-rate and adjustable-rate options. Fixed-rate mortgages have stable monthly payments, while adjustable-rate mortgages offer initial lower rates that adjust over time. Qualifying for a mortgage involves factors such as credit score, income, and debt-to-income ratio. The mortgage application process includes pre-approval, property appraisal, and final loan approval."
+        ]
+      },
+      {
+        "tag": "auto_loans",
+        "patterns": [
+          "Does the bank offer auto loans?",
+          "What are the terms and interest rates for auto loans?",
+          "Can you explain the loan application process?",
+          "Is there a down payment requirement for auto loans?",
+          "Can I refinance my current auto loan?"
+        ],
+        "responses": [
+          "We offer auto loans to finance new or used vehicles with competitive terms and interest rates. Loan terms vary based on credit history, vehicle type, and loan amount. The loan application process includes submitting income verification, vehicle details, and credit check. A down payment may be required based on loan amount and creditworthiness. Refinancing your current auto loan can lower monthly payments or reduce interest rates, subject to credit approval."
+        ]
+      },
+      {
+        "tag": "investment_accounts",
+        "patterns": [
+          "Does the bank offer investment accounts?",
+          "What types of investment accounts are available?",
+          "Can you explain the benefits of a brokerage account?",
+          "How can I start investing with the bank?",
+          "Is there assistance available for portfolio management?"
+        ],
+        "responses": [
+          "Yes, we provide investment accounts including brokerage accounts, IRAs (Individual Retirement Accounts), and managed portfolios. Brokerage accounts offer access to stocks, bonds, mutual funds, and other investments. Benefits include potential for growth, diversification, and tax advantages. You can start investing with us by opening an account, discussing investment goals, and choosing suitable investment options. We offer portfolio management services to help monitor and adjust investments based on market conditions and your financial objectives."
+        ]
+      },
+      {
+        "tag": "business_banking_services",
+        "patterns": [
+          "What business banking services does the bank offer?",
+          "Can you explain business checking and savings accounts?",
+          "Does the bank provide business loans or lines of credit?",
+          "How can the bank assist with business cash management?",
+          "Are there merchant services available for businesses?"
+        ],
+        "responses": [
+          "Our bank offers comprehensive business banking services to support small to large businesses. Services include business checking and savings accounts with options for online banking and cash management tools. We provide business loans, lines of credit, and commercial real estate financing tailored to business needs. Cash management services help optimize cash flow, manage payroll, and streamline payments. Merchant services include credit card processing, point-of-sale solutions, and online payment gateways."
+        ]
+      },
+      {
+        "tag": "online_banking_security",
+        "patterns": [
+          "How secure is online banking?",
+          "What measures does the bank take to protect online transactions?",
+          "Can you explain two-factor authentication?",
+          "Is it safe to use online banking on mobile devices?",
+          "How can I report suspicious activity on my account?"
+        ],
+        "responses": [
+          "Online banking security is a top priority. We employ encryption, firewalls, and monitoring systems to safeguard your information. Additional measures include two-factor authentication for secure login and transaction verification. Using our mobile banking app is safe; it includes the same security protocols as our online platform. If you notice suspicious activity on your account, contact us immediately to investigate and take appropriate action to protect your account."
+        ]
+      },
+      {
+        "tag": "wealth_management_services",
+        "patterns": [
+          "Does the bank offer wealth management services?",
+          "Can you explain the benefits of a financial advisor?",
+          "How can the bank help with retirement planning?",
+          "Is there assistance available for estate planning?",
+          "What is portfolio diversification?"
+        ],
+        "responses": [
+          "Yes, our bank provides personalized wealth management services to help clients achieve their financial goals. Benefits of working with a financial advisor include customized investment strategies, retirement planning, and estate planning guidance. We offer comprehensive services to manage assets, minimize taxes, and transfer wealth to future generations. Portfolio diversification involves spreading investments across different asset classes to reduce risk and maximize returns based on your risk tolerance and investment objectives."
+        ]
+      },
+      {
+        "tag": "business_credit",
+        "patterns": [
+          "How can businesses establish credit with the bank?",
+          "What factors determine business creditworthiness?",
+          "Can you explain business credit reports?",
+          "What are the benefits of building business credit?",
+          "Is there assistance for improving business credit scores?"
+        ],
+        "responses": [
+          "Businesses can establish credit with us through responsible borrowing and timely repayment of loans and credit lines. Factors influencing business creditworthiness include revenue history, payment history, and industry risk factors. Business credit reports provide insights into creditworthiness and are used for loan approvals and terms. Building business credit can lead to lower interest rates, higher credit limits, and improved access to financing options. We offer guidance on improving credit scores through financial management and credit building strategies."
+        ]
+      },
+      {
+        "tag": "financial_goals",
+        "patterns": [
+          "How can I set and achieve financial goals?",
+          "Can you explain the importance of financial planning?",
+          "Is there assistance available for creating a budget?",
+          "What are the steps to saving for a major purchase?",
+          "Can you provide tips for managing debt?"
+        ],
+        "responses": [
+          "Setting financial goals involves identifying priorities, such as saving for retirement, buying a home, or funding education. Financial planning helps create a roadmap to achieve these goals through budgeting, saving, and investing strategies. We offer assistance with creating a budget tailored to your income and expenses. Saving for a major purchase involves setting aside funds regularly and considering investment options for growth. Managing debt includes prioritizing payments, consolidating debt when beneficial, and exploring repayment strategies to reduce interest costs."
+        ]
+      },
+      {
+        "tag": "business_expansion",
+        "patterns": [
+          "How can the bank assist with business expansion?",
+          "Can you explain commercial real estate financing?",
+          "What are the options for business acquisition financing?",
+          "Is there assistance for international business expansion?",
+          "Can the bank help with franchising or new market entry?"
+        ],
+        "responses": [
+          "Our bank supports business expansion with financing solutions tailored to your growth plans. Commercial real estate financing helps businesses acquire or refinance properties for expansion. We offer options for business acquisition financing to fund mergers, acquisitions, or buyouts. Assistance for international expansion includes foreign exchange services, international payment solutions, and global banking expertise. We provide resources and financial solutions to support franchising and entering new markets."
+        ]
+      },
+      {
+        "tag": "customer_service",
+        "patterns": [
+          "How does the bank prioritize customer service?",
+          "What support channels are available for customers?",
+          "Can you explain the process for resolving customer inquiries or issues?",
+          "Is there feedback mechanisms for improving services?",
+          "How can I provide feedback or suggestions to the bank?"
+        ],
+        "responses": [
+          "Customer service is central to our commitment to client satisfaction. We offer support through multiple channels, including in-branch assistance, phone support, and online chat. Resolving inquiries or issues involves prompt investigation and communication to address concerns effectively. We value customer feedback and use it to enhance our services continuously. You can provide feedback or suggestions through our website, customer surveys, or by speaking with a bank representative."
+        ]
+      },
+      {
+        "tag": "student_loans",
+        "patterns": [
+          "Does the bank offer student loans?",
+          "What are the options for federal vs. private student loans?",
+          "Can you explain student loan repayment plans?",
+          "How can I qualify for student loan forgiveness programs?",
+          "Is there assistance for refinancing student loans?"
+        ],
+        "responses": [
+          "Our bank provides student loans to finance higher education expenses, including tuition, books, and living costs. Options include federal loans with fixed interest rates and private loans with flexible terms. Student loan repayment plans vary based on income, with options for income-driven repayment or fixed monthly payments. Qualifying for loan forgiveness programs may require working in public service or meeting specific eligibility criteria. Refinancing student loans can lower interest rates or adjust repayment terms, subject to credit approval."
+        ]
+      },
+      {
+        "tag": "retirement_accounts",
+        "patterns": [
+          "Does the bank offer retirement accounts?",
+          "What types of retirement accounts are available?",
+          "Can you explain the benefits of an IRA (Individual Retirement Account)?",
+          "How can I rollover my 401(k) into an IRA?",
+          "Is there assistance available for retirement planning?"
+        ],
+        "responses": [
+          "Yes, we provide retirement accounts including IRAs, 401(k) rollovers, and employer-sponsored retirement plans. IRAs offer tax advantages for retirement savings, with options for traditional IRAs with tax-deferred growth or Roth IRAs with tax-free withdrawals in retirement. Rollover options allow you to transfer funds from a previous employer's retirement plan into an IRA without tax penalties. We offer personalized retirement planning assistance to help clients achieve their financial goals and maximize retirement savings."
+        ]
+      },
+      {
+        "tag": "small_business_loans",
+        "patterns": [
+          "Does the bank offer small business loans?",
+          "What types of small business financing are available?",
+          "Can you explain SBA (Small Business Administration) loans?",
+          "How can I qualify for a small business loan?",
+          "Is there assistance available for business plan development?"
+        ],
+        "responses": [
+          "Our bank supports small businesses with a range of financing options, including term loans, lines of credit, and SBA loans. SBA loans are guaranteed by the Small Business Administration, offering favorable terms and lower down payments for qualified businesses. Qualifying for a small business loan involves demonstrating business viability, financial stability, and repayment capacity. We provide guidance and resources for developing a business plan to strengthen loan applications and support business growth."
+        ]
+      },
+      {
+        "tag": "tax_services",
+        "patterns": [
+          "Does the bank offer tax services?",
+          "Can you explain tax preparation assistance?",
+          "What are the benefits of using tax-favored accounts?",
+          "Is there assistance for understanding tax deductions?",
+          "How can the bank help with IRS inquiries or audits?"
+        ],
+        "responses": [
+          "Our bank offers tax services including tax preparation assistance, guidance on tax-favored accounts, and resources for understanding deductions and credits. Tax preparation services help clients navigate filing requirements and maximize deductions for personal and business taxes. Tax-favored accounts such as HSAs (Health Savings Accounts) or 529 plans offer tax benefits for healthcare expenses or education savings. We assist with IRS inquiries, audits, and provide support to resolve tax-related issues promptly."
+        ]
+      },
+      {
+        "tag": "identity_theft_protection",
+        "patterns": [
+          "How can the bank protect against identity theft?",
+          "What measures are in place for fraud detection?",
+          "Can you explain identity theft monitoring services?",
+          "Is there assistance available if my identity is stolen?",
+          "How can I safeguard personal information?"
+        ],
+        "responses": [
+          "Identity theft protection is a priority. We employ advanced security measures, including encryption, fraud monitoring, and identity theft detection systems. Monitoring services track suspicious activities and alert you to potential threats. If your identity is stolen, we provide assistance to help mitigate damages, such as freezing accounts and working with credit bureaus to resolve issues. Safeguarding personal information includes using strong passwords, avoiding phishing scams, and monitoring financial statements regularly."
+        ]
+      },
+      {
+        "tag": "international_banking",
+        "patterns": [
+          "Does the bank offer international banking services?",
+          "Can you explain foreign currency exchange?",
+          "What are the options for international wire transfers?",
+          "How can I manage finances while traveling abroad?",
+          "Is there assistance for expatriates or foreign residents?"
+        ],
+        "responses": [
+          "Our bank provides international banking services including foreign currency exchange, international wire transfers, and travel financial solutions. Foreign currency exchange allows you to buy or sell currencies at competitive rates for travel or business transactions. International wire transfers facilitate secure funds transfer globally, with options for same-day delivery. We offer travel financial services such as prepaid cards and travel insurance for peace of mind while abroad. Assistance for expatriates and foreign residents includes banking solutions tailored to international lifestyles."
+        ]
+      },
+      {
+        "tag": "financial_markets",
+        "patterns": [
+          "Can you explain financial markets and investments?",
+          "What factors influence stock market performance?",
+          "How can I diversify investments for risk management?",
+          "Can you explain bond investments and yields?",
+          "Is there assistance for understanding investment risks?"
+        ],
+        "responses": [
+          "Financial markets encompass stock exchanges, bond markets, and commodities where securities and assets are traded. Factors influencing stock market performance include economic indicators, company earnings, and geopolitical events. Diversifying investments across asset classes, industries, and geographic regions can reduce portfolio risk. Bond investments involve lending money to governments or corporations in exchange for periodic interest payments and return of principal. We provide guidance on investment risks, market trends, and strategies for achieving long-term financial objectives."
+        ]
+      },
+      {
+        "tag": "digital_banking",
+        "patterns": [
+          "Does the bank offer digital banking services?",
+          "What features are available on the online banking platform?",
+          "Can you explain the benefits of using mobile apps for banking?",
+          "Is digital banking secure?",
+          "How can I enroll in online banking?"
+        ],
+        "responses": [
+          "Yes, our bank offers digital banking services for convenient account management anytime, anywhere. The online banking platform features include account balance inquiries, fund transfers, bill payments, and secure messaging. Mobile banking apps provide additional features such as mobile check deposit and account alerts for real-time updates. We prioritize digital banking security with encryption, multi-factor authentication, and ongoing monitoring to protect your financial information. Enrolling in online banking is quick and easy; you can sign up online or at any branch location."
+        ]
+      },
+      {
+        "tag": "financial_consultation",
+        "patterns": [
+          "Does the bank offer financial consultation services?",
+          "Can you explain the role of a financial advisor?",
+          "How can I schedule a consultation with a financial advisor?",
+          "Is there a fee for financial consultations?",
+          "What topics can be discussed during a financial consultation?"
+        ],
+        "responses": [
+          "Our bank provides personalized financial consultation services with experienced advisors to help clients achieve their financial goals. Financial advisors offer guidance on investments, retirement planning, estate planning, and wealth management strategies. You can schedule a consultation by contacting our advisory team directly or through our website. Initial consultations are typically complimentary, allowing you to discuss your financial objectives and explore services tailored to your needs."
+        ]
+      }
+    ]
+    }
+      
+    
+  
